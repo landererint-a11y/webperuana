@@ -1,0 +1,84 @@
+/* selva.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #d0f0c0, #88b04b); /* verdes naturales */
+    margin: 0;
+    padding: 20px;
+    color: #2e4a1f; /* verde oscuro para el texto */
+}
+
+h1 {
+    text-align: center;
+    color: #1f3b0d; /* verde bosque */
+    margin-top: 30px;
+    font-size: 3rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.hijo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.nieto {
+    background-color: #f0f4e6; /* un verde muy claro, casi beige */
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(46, 74, 31, 0.2);
+    width: 340px;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nieto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(46, 74, 31, 0.4);
+}
+
+.nieto h2 {
+    color: #3b6d1a; /* verde vibrante */
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(46, 74, 31, 0.3);
+}
+
+.nieto img {
+    width: 100%;
+    border-radius: 12px;
+    border: 3px solid #5a8424; /* marco verde */
+    margin-bottom: 15px;
+    object-fit: cover;
+    height: 180px;
+}
+
+.nieto ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #2e4a1f;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #1f3b0d;
+    font-size: 1rem;
+    padding: 15px 0;
+    border-top: 2px solid #3b6d1a;
+    background-color: #d8e5bb;
+    font-weight: 600;
+}
